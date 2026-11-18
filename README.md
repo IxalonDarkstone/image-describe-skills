@@ -11,7 +11,7 @@ The skills are generic. They describe what is actually in the image, follow that
 | `illustrious-image-describe` | Illustrious (SDXL anime) | A Danbooru-style tag prompt in this order: person count, character, optional rating, general tags, optional artist, then `masterpiece, newest`, plus a compact negative prompt |
 | `anima-image-describe` | Anima (CircleStone Labs / Comfy Org) | A hybrid prompt in official tag order (quality, era, safety, count, identity, attributes, pose, camera, environment, lighting), then two spatial prose sentences, plus a compact negative prompt |
 | `krea-image-describe` | Krea | Three prose paragraphs covering style and subjects, location and lighting, then camera and composition |
-| `moss-image-describe` | MOSS-Image (OpenMOSS) | A detailed English caption by default, with optional tag sequences or JSON layout when placement or anime tags fit better, plus a negative prompt |
+| `moss-image-describe` | MOSS-Image (OpenMOSS) | A detailed English caption by default, or an official Pixel Layout draft compiled to a one-line JSON prompt when exact placement matters, plus a compact negative prompt |
 | `wan22-image-to-video` | Wan 2.2 | A 5 second image-to-video timeline: a scene paragraph, timed `0-1s` through `4-5s` beats, then `Motion:` and `Negative:` lines |
 | `mmh3-prompting` | MiniMax H3 (MMH3) | A structured video timeline with subject labels, a keyframe-completion summary, timed shots, soundscape and music |
 
