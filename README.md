@@ -8,7 +8,7 @@ The skills are generic. They describe what is actually in the image, follow that
 
 | Folder | Model | What it writes |
 | --- | --- | --- |
-| `illustrious-image-describe` | Illustrious (SDXL anime) | A comma-separated Danbooru-style tag prompt, plus a short negative prompt |
+| `illustrious-image-describe` | Illustrious (SDXL anime) | A Danbooru-style tag prompt with important identity tags first, `masterpiece, best quality` at the end of long prompts, and a compact `worst quality, low quality` negative |
 | `anima-image-describe` | Anima (CircleStone Labs / Comfy Org) | A hybrid prompt in official tag order (quality, era, safety, count, identity, attributes, pose, camera, environment, lighting), then two spatial prose sentences, plus a compact negative prompt |
 | `krea-image-describe` | Krea | Three prose paragraphs covering style and subjects, location and lighting, then camera and composition |
 | `moss-image-describe` | MOSS-Image (OpenMOSS) | A detailed English caption by default, with optional tag sequences or JSON layout when placement or anime tags fit better, plus a negative prompt |
