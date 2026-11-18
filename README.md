@@ -12,7 +12,7 @@ The skills are generic. They describe what is actually in the image, follow that
 | `anima-image-describe` | Anima (CircleStone Labs / Comfy Org) | A hybrid prompt: quality and subject tags, then two or more natural-language sentences, plus a negative prompt |
 | `krea-image-describe` | Krea | Three prose paragraphs covering style and subjects, location and lighting, then camera and composition |
 | `moss-image-describe` | MOSS-Image (OpenMOSS) | A detailed English caption by default, with optional tag sequences or JSON layout when placement or anime tags fit better, plus a negative prompt |
-| `wan22-image-to-video` | Wan 2.2 | One natural-language paragraph for image-to-video: style, subjects, motion over a short clip, and camera |
+| `wan22-image-to-video` | Wan 2.2 | A 5 second image-to-video timeline: a scene paragraph, timed `0-1s` through `4-5s` beats, then `Motion:` and `Negative:` lines |
 | `mmh3-prompting` | MiniMax H3 (MMH3) | A structured video timeline with subject labels, a keyframe-completion summary, timed shots, soundscape and music |
 
 ## How to add these skills to an AI
@@ -47,7 +47,7 @@ Send an image (or describe a scene) and name the model, for example:
 
 - "Describe this as a Krea prompt."
 - "Write an Illustrious prompt and negative for this image."
-- "Turn this still into a Wan 2.2 clip prompt."
+- "Turn this still into a Wan 2.2 timeline."
 - "Write an MMH3 timeline that starts on this frame."
 
 The assistant should return one paste-ready prompt in a code block, in that model's format, describing the picture faithfully.
